@@ -448,7 +448,7 @@ img {
 #icon div {
   width: 100%;
   height: 5px;
-  background: #000;
+  background: #fff;
   border-radius: 10px;
   margin: 4px auto;
   transition: all 0.3s;
