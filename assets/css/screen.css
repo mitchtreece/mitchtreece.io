@@ -511,13 +511,13 @@ img {
    3. Code Highlighter (Monokai Sublime style) | Derived from Monokai by noformnocontent http://nn.mit-license.org/
    ================================================================================================================== */
 .hljs {
-  display: inline-block;
-  overflow: auto;
+  display: block;
   overflow-x: scroll;
   padding: 0.5em;
   background: #23241f;
   background-clip: padding-box;
   border-radius: 10px;
+  border-color: none;
   -webkit-text-size-adjust: none;
 }
 
