@@ -512,9 +512,10 @@ img {
    ================================================================================================================== */
 .hljs {
   display: block;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding: 0.5em;
   background: #23241f;
+  border-radius: 14px;
   -webkit-text-size-adjust: none;
 }
 
