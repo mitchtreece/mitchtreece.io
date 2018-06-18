@@ -475,7 +475,7 @@ img {
 }
 
 #menu {
-  color: #000;
+  color: #fff;
   height: 105px;
   position: relative;
   top: 50px;
@@ -503,7 +503,7 @@ img {
 }
 
 #menu a {
-  color: #000;
+  color: #fff;
   font-weight: 900;
 }
 
@@ -587,15 +587,15 @@ img {
 }
 
 .main-header .logo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: block;
   margin: 0 auto;
-  transition: all 0.25s ease-in;
+  /* transition: all 0.25s ease-in;
  -webkit-animation: slideDown 1s ease;
  -moz-animation: slideDown 1s ease;
  -o-animation: slideDown 1s ease;
- animation: slideDown 1s ease;
+ animation: slideDown 1s ease; */
  visibility: visible !important;
 }
 
@@ -608,8 +608,8 @@ img {
 .main-header .title {
   display: inline-block;
   position: relative;
-  padding-bottom: 8px;
-  border-bottom: 3.5px solid #000;
+  padding-bottom: 14px;
+  border-bottom: 2.5px solid #fff;
 }
 
 .main-header .title h1 {
@@ -623,9 +623,10 @@ img {
 }
 
 .main-header .title p {
-  margin: 0;
-  font-size: 1.1rem;
-  text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
 /* ==========================================================================
