@@ -422,9 +422,10 @@ img {
    ========================================================================== */
 .toggle-menu {
   position: absolute;
+  background-color: red;
   top: 0;
   left: 0;
-  overflow: visible;
+  overflow: hidden;
   height: 200px;
   z-index: 99;
 }
@@ -441,7 +442,7 @@ img {
   top: 20px;
   float: left;
   z-index: 10;
-  overflow: visible;
+  overflow: hidden;
   cursor: pointer;
 }
 
