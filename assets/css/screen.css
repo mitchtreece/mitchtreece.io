@@ -320,9 +320,9 @@ code, tt {
   padding: 2px 5px;
   font-family: Consolas, monospace, sans-serif;
   font-size: 0.9rem;
-  white-space: pre-wrap;
-  border: 1px solid #eee;
-  background: #f4f4f4;
+  /* white-space: pre-wrap; */
+  border: none;
+  background: none;
   vertical-align: middle;
 }
 
@@ -517,7 +517,6 @@ img {
   background: #23241f;
   background-clip: padding-box;
   border-radius: 10px;
-  border-color: none;
   -webkit-text-size-adjust: none;
 }
 
