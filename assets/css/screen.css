@@ -320,7 +320,6 @@ code, tt {
   padding: 2px 5px;
   font-family: Consolas, monospace, sans-serif;
   font-size: 0.9rem;
-  /* white-space: pre-wrap; */
   border: none;
   background: none;
   vertical-align: middle;
@@ -345,8 +344,6 @@ pre {
 
 pre code, tt {
   font-size: 0.9rem;
-  white-space: -moz-pre-wrap;
-  white-space: pre-wrap;
   background: transparent;
   border: none;
   padding: 0;
