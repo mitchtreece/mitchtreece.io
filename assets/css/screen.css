@@ -573,7 +573,7 @@ img {
    3. General
    ========================================================================== */
 .inner {
-  max-width: 650px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 25px;
 }
