@@ -495,7 +495,7 @@ img {
   display: block;
   list-style-type: none;
   position: relative;
-  margin: 8px auto 8px;
+  margin: 0 auto;
   padding: 8px;
   text-transform: uppercase;
   font-size: 1rem;
@@ -511,11 +511,13 @@ img {
    3. Code Highlighter (Monokai Sublime style) | Derived from Monokai by noformnocontent http://nn.mit-license.org/
    ================================================================================================================== */
 .hljs {
-  display: block;
+  display: inline-block;
+  overflow: auto;
   overflow-x: scroll;
   padding: 0.5em;
   background: #23241f;
-  border-radius: 14px;
+  background-clip: padding-box;
+  border-radius: 10px;
   -webkit-text-size-adjust: none;
 }
 
